@@ -25,7 +25,7 @@ def dicitionary(name):
     if "Czechy" in kraje:
         print(kraje["Czechy"])
         
-    for kraj,stolica in kraje:
+    for kraj,stolica in kraje.items():
         print(f"{kraj}: {stolica}")
     
     #Zadanie 3
