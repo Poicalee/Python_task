@@ -27,7 +27,7 @@ def ask_for_file():
         file_name = input("Podaj nazwę pliku: ")
         with open(file_name,'r',encoding='utf8') as f:
             zawartosc = f.read()
-            slowa = zawartosc.split()
+            slowa = zawartosc.splitlines()
             print(zawartosc)
             print(len(slowa))
             return len(slowa)
@@ -36,6 +36,6 @@ def ask_for_file():
         
     
     
-# files()
-# copy_file()
+files()
+copy_file()
 ask_for_file()
