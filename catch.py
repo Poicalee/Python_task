@@ -18,13 +18,11 @@ def bezpieczne_dzielenie(a,b):
 def pobierz_liczbe():
     
     while True:
-        
-        x = input("Podaj liczbe całkowitą: ")
     
         try:
-            if is_int(x):
+                x = int(input("Podaj liczbę całkowitą: "))
                 print(x)
-                break
+                return x
         except ValueError:
             print("Podaj liczbe int")
 
@@ -33,7 +31,7 @@ def ask_for_file():
         file_name = input("Podaj nazwę pliku: ")
         output_file = input("Podaj nazwę pliku do zapisu: ")
         with open(file_name,'r',encoding='utf8') as f:
-            zawartosc = f.read().lower()
+            zawartosc = f.read().upper()
         with open(output_file,'w',encoding='utf8') as f:
             f.write(zawartosc)
             print(zawartosc)
