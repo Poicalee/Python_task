@@ -1,0 +1,28 @@
+﻿{
+  "pytania": [
+    {
+      "tresc": "Która planeta jest najbliżej Słońca?",
+      "odpowiedzi": ["Wenus", "Merkury", "Mars", "Ziemia"],
+      "poprawna_odpowiedz": 1,
+      "punkty": 1
+    },
+    {
+      "tresc": "Kto napisał 'Pan Tadeusz'?",
+      "odpowiedzi": ["Juliusz Słowacki", "Henryk Sienkiewicz", "Adam Mickiewicz", "Bolesław Prus"],
+      "poprawna_odpowiedz": 2,
+      "punkty": 1
+    },
+    {
+      "tresc": "Które z poniższych nie jest językiem programowania?",
+      "odpowiedzi": ["Java", "Python", "HTML", "Ruby"],
+      "poprawna_odpowiedz": 2,
+      "punkty": 2
+    },
+    {
+      "tresc": "Jaka jest stolica Polski?",
+      "odpowiedzi": ["Kraków", "Poznań", "Warszawa", "Gdańsk"],
+      "poprawna_odpowiedz": 2,
+      "punkty": 1
+    }
+  ]
+}
